@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ANG';
+   storePosts = [];
+
+   onAdded(post) {
+     this.storePosts.push(post);
+   }
+
 }

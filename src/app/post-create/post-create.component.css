@@ -1,12 +1,13 @@
 mat-card{
-  margin-top: 3em;
+  margin-top: 2em;
+  background-color: rgb(95, 61, 22);
 }
 mat-form-field{
   width: 100%;
 }
  textarea{
   width: 100%;
-  background-color: darkgrey;
+  background-color: rgb(156, 156, 156);
 }
 #postDiv{
   margin-top: 5em;
