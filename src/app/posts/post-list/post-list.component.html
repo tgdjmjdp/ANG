@@ -6,6 +6,18 @@
     <p>
       {{ post.content }}
     </p>
+    <mat-action-row>
+      <button
+        color="info"
+        mat-button>
+        EDIT
+      </button>
+      <button
+        color="warn"
+        mat-button>
+        DELETE
+      </button>
+    </mat-action-row>
   </mat-expansion-panel>
 </mat-accordion>
 <p class="mat-body-1" *ngIf="posts.length <= 0">
