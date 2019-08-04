@@ -16,9 +16,7 @@ export class PostCreateComponent implements OnInit {
     if (form.invalid) {
       return;
     }
-    this.postService.addPosts(
-      form.value.title, form.value.content
-    );
+
     form.resetForm();
   }
   constructor(public postService: PostService) {
